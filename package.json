@@ -2,13 +2,9 @@
   "name": "@nearmap/jest-config",
   "description": "Base Jest Configuration for JavaScript projects.",
   "keywords": [
-    "npx",
-    "npm-scripts",
-    "run",
-    "scripts",
-    "build",
-    "tool",
-    "cli"
+    "jest",
+    "config",
+    "nearmap"
   ],
   "version": "0.0.0-semantically-released",
   "engines": {
