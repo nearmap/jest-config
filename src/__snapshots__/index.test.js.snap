@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`jest-config regression 1`] = `
+Object {
+  "clearMocks": true,
+  "collectCoverage": true,
+  "collectCoverageFrom": Array [
+    "src/**/*.js",
+  ],
+  "coverageDirectory": "./build/cov",
+  "coverageReporters": Array [
+    "lcov",
+  ],
+  "coverageThreshold": Object {
+    "global": Object {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100,
+    },
+  },
+  "resetMocks": false,
+  "setupFiles": Array [],
+  "testMatch": Array [
+    "<rootDir>/src/**/*.test.js",
+  ],
+  "testPathIgnorePatterns": Array [
+    "<rootDir>/node_modules/",
+    "<rootDir>/build/",
+  ],
+  "timers": "fake",
+  "transform": Object {
+    "^.+\\\\.js$": "babel-jest",
+  },
+  "transformIgnorePatterns": Array [
+    "<rootDir>/node_modules/",
+    "<rootDir>/build/",
+  ],
+  "watchPathIgnorePatterns": Array [
+    "<rootDir>/node_modules/",
+    "<rootDir>/build/",
+  ],
+}
+`;
