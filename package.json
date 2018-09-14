@@ -23,7 +23,7 @@
     "clean": "rimraf ./build",
     "build": "run build:*",
     "build:babel": "babel src --out-dir build/pkg --ignore '**/*.test.js'",
-    "build:files": "cp ./README.md ./LICENSE build/pkg/",
+    "build:files": "cp package.json ./README.md ./LICENSE build/pkg/",
     "test": "run lint jest",
     "lint": "run lint:*",
     "lint:js": "eslint --report-unused-disable-directives --ignore-path .gitignore .",
