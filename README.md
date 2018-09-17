@@ -5,7 +5,7 @@ Base Jest Configuration for JavaScript projects
 ## Installation
 
 ```bash
-npm install --save-dev
+npm install --save-dev @nearmap/jest-config
 ```
 
 
