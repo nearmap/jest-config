@@ -2,6 +2,9 @@ module.exports = {
   setupFiles: [],
 
   transform: {'^.+\\.js$': 'babel-jest'},
+
+  modulePathIgnorePatterns: ['<rootDir>/build/'],
+
   transformIgnorePatterns: [
     '<rootDir>/node_modules/',
     '<rootDir>/build/'

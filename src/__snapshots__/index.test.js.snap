@@ -19,6 +19,9 @@ Object {
       "statements": 100,
     },
   },
+  "modulePathIgnorePatterns": Array [
+    "<rootDir>/build/",
+  ],
   "resetMocks": false,
   "setupFiles": Array [],
   "testMatch": Array [
