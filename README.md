@@ -1,4 +1,7 @@
 # jest-config
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/nearmap/jest-config.svg)](https://greenkeeper.io/)
+
 Base Jest Configuration for JavaScript projects
 
 
