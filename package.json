@@ -7,6 +7,7 @@
     "nearmap"
   ],
   "version": "0.0.0-semantically-released",
+  "license": "MIT",
   "engines": {
     "node": ">=10.0.0"
   },
@@ -36,22 +37,22 @@
   "homepage": "https://github.com/nearmap/jest-config",
   "main": "./index.js",
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
     "@nearmap/eslint-config-base": "^1.0.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.4.2",
     "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.5.0",
+    "eslint": "^5.6.0",
     "jest-cli": "^23.5.0",
     "npx-run": "^2.1.0",
     "remark-cli": "^5.0.0",
     "remark-lint": "^6.0.1",
     "remark-preset-lint-recommended": "^3.0.2",
     "rimraf": "^2.6.2",
-    "semantic-release": "^15.9.14"
+    "semantic-release": "^15.9.16"
   },
   "config": {
     "commitizen": {
