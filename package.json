@@ -37,26 +37,30 @@
   "homepage": "https://github.com/nearmap/jest-config",
   "main": "./index.js",
   "devDependencies": {
-    "@babel/cli": "^7.1.0",
-    "@babel/core": "^7.1.0",
-    "@babel/preset-env": "^7.1.0",
-    "@nearmap/eslint-config-base": "^1.0.1",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@nearmap/eslint-config-base": "^1.1.0",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.4.2",
-    "commitizen": "^2.10.1",
+    "babel-jest": "^24.8.0",
+    "commitizen": "^3.1.1",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.6.0",
-    "jest-cli": "^23.5.0",
-    "npx-run": "^2.1.0",
-    "remark-cli": "^5.0.0",
-    "remark-lint": "^6.0.1",
+    "eslint": "^5.16.0",
+    "jest-cli": "^24.8.0",
+    "npx-run": "^2.1.2",
+    "remark-cli": "^6.0.1",
+    "remark-lint": "^6.0.4",
     "remark-preset-lint-recommended": "^3.0.2",
-    "rimraf": "^2.6.2",
-    "semantic-release": "^15.9.16"
+    "rimraf": "^2.6.3",
+    "semantic-release": "^15.13.12"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "resolutions": {
+    "node-gyp": ">=4.0.0",
+    "fstream": ">=1.0.12"
   }
 }
